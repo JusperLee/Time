@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="toolbarColor" format="color" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="textColor" format="color" />
+    <attr name="gradientStartColor" format="color" />
+    <attr name="gradientEndColor" format="color" />
+    <attr name="simpleIconFillColor" format="color"/>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SemicircleProgressView">
+        <attr name="semicircleSize" format="dimension" />
+        <attr name="semicirclebackgroundLineColor" format="color" />
+        <attr name="semicirclefrontLineColor" format="color" />
+        <attr name="semicircletitleColor" format="color" />
+        <attr name="semicirclesubtitleColor" format="color" />
+        <attr name="semicirclelineSize" format="dimension" />
+        <attr name="semicircletitleSize" format="dimension" />
+        <attr name="semicirclesubtitleSize" format="dimension" />
+        <attr name="semicircletitleText" format="string" />
+        <attr name="semicirclesubtitleText" format="string" />
+    </declare-styleable>
+</resources>

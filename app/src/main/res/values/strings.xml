@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">时刻</string>
+    <string name="slogan01">时\n刻\n记\n得</string>
+    <string name="slogan02">归\n划\n时\n间</string>
+    <string name="update_date">2018/04/15</string>
+    <string name="statement">仅供个人娱乐</string>
+    <string name="search_name_text">搜寻</string>
+    <string name="network_error">网络错误</string>
+    <string name="data_error">数据错误</string>
+    <string name="time_out_error">连接超时</string>
+    <string name="change_theme_need_refresh_flag">change_theme_need_refresh</string>
+    <string name="introduce"></string>
+</resources>

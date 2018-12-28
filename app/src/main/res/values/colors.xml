@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dayColorPrimary">#FFFFFF</color>
+    <color name="dayColorPrimaryDark">#FFFFFF</color>
+    <color name="dayColorAccent">#EF787A</color>
+
+    <color name="nightColorPrimary">#222222</color>
+    <color name="nightColorPrimaryDark">#222222</color>
+    <color name="nightColorAccent">#EF787A</color>
+
+    <color name="dayStyleBackground">#EBEBEB</color>
+    <color name="nightStyleBackground">#303030</color>
+
+    <color name="dayStartColor">#FFFFFF</color>
+    <color name="dayEndColor">#EBEBEB</color>
+    <color name="nightStartColor">#222222</color>
+    <color name="nightEndColor">#303030</color>
+
+    <color name="daySimpleIconFillColor">#ff777777</color>
+    <color name="nightSimpleIconFillColor">#F5F5F5</color>
+
+    <!-- 所有的分割线颜色 -->
+    <color name="gray_diver">#207F7F7F</color>
+
+    <!-- 字体颜色（黑色） -->
+    <color name="text_black">#3A3A3A</color>
+    <color name="text_default_color">#ff777777</color>
+
+    <color name="text_white">#F5F5F5</color>
+
+
+    <color name="plan_card_bg_color1">#ff9e22</color>
+    <color name="plan_card_bg_color2">#ff8d00</color>
+    <color name="plan_card_bg_color3">#fa8100</color>
+    <color name="plan_card_bg_color4">#f47100</color>
+    <color name="plan_card_bg_color5">#ee6002</color>
+    <color name="plan_card_bg_color6">#e54304</color>
+</resources>

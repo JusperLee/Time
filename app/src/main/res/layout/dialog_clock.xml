@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="备注（可选）"
+        android:textSize="10.0sp" />
+
+    <com.zhangke.shizhong.widget.CustomAutoCompleteTextView
+        android:id="@+id/et_clock_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:completionThreshold="0"
+        android:textColor="@color/text_black"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<resources>
+
+    <!--白天主题-->
+    <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/dayColorPrimaryDark</item>
+        <item name="colorAccent">@color/dayColorAccent</item>
+        <item name="toolbarColor">@color/dayColorPrimary</item>
+        <item name="backgroundColor">@color/dayStyleBackground</item>
+        <item name="textColor">@color/text_black</item>
+        <item name="gradientStartColor">@color/dayStartColor</item>
+        <item name="gradientEndColor">@color/dayEndColor</item>
+        <item name="simpleIconFillColor">@color/daySimpleIconFillColor</item>
+    </style>
+
+    <!--夜间主题-->
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/nightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/nightColorPrimaryDark</item>
+        <item name="colorAccent">@color/nightColorAccent</item>
+        <item name="toolbarColor">@color/nightColorPrimaryDark</item>
+        <item name="backgroundColor">@color/nightStyleBackground</item>
+        <item name="textColor">@color/text_white</item>
+        <item name="gradientStartColor">@color/nightStartColor</item>
+        <item name="gradientEndColor">@color/nightEndColor</item>
+        <item name="simpleIconFillColor">@color/nightSimpleIconFillColor</item>
+    </style>
+
+    <!-- ToolBar 默认 them -->
+    <style name="toolbar_them" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">?attr/textColor</item>
+        <item name="android:textColorPrimary">?attr/textColor</item>
+        <item name="actionMenuTextColor">?attr/textColor</item>
+    </style>
+
+    <!--圆形对话框样式-->
+    <style name="Progress_circle">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_color</item>
+    </style>
+
+    <!-- 默认分割线样式 -->
+    <style name="default_diver">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/gray_diver</item>
+    </style>
+
+    <!--圆形图片样式-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+    <!--透明背景的 dialog-->
+    <style name="TranslucentDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="NumberProgressBar_Twinkle_Night">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#ECF0F1</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#ECF0F1</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="NumberProgressBar_Funny_Orange">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#EF787A</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#EF787A</item>
+
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="InputIconStyle">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+</resources>
